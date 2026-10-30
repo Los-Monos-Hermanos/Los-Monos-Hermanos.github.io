@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — INANIS - Empty Lands</title>
+<meta name="description" content="Política de Privacidade do jogo INANIS - Empty Lands, da Los Monos Hermanos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+
+<div class="stars" id="stars"></div>
+
+<nav>
+  <a class="nav-logo" href="../../">Los Monos Hermanos</a>
+  <ul class="nav-links">
+    <li><a href="../../#jogos">Jogos</a></li>
+    <li><a href="mailto:losmonoshermanosstudio@gmail.com">Contato</a></li>
+  </ul>
+</nav>
+
+<section class="policy">
+  <p class="section-label">INANIS - Empty Lands</p>
+  <h1 class="section-title">Política de Privacidade</h1>
+  <p class="policy-date">Última atualização: 30 de outubro de 2026.</p>
+
+  <p>Esta política se aplica ao jogo <strong>INANIS - Empty Lands</strong> para Android (pacote <code>com.losmonos.inanis</code>), desenvolvido por <strong>Los Monos Hermanos</strong>.</p>
+
+  <h2>Dados que coletamos</h2>
+  <p>O jogo não coleta dados pessoais. Ele não pede cadastro nem login, não usa localização, câmera, microfone ou contatos, e não envia para nós informações sobre você ou sobre o seu progresso.</p>
+
+  <h2>Dados guardados no seu aparelho</h2>
+  <p>O progresso do jogo e as preferências, como o volume do áudio, ficam gravados apenas no seu aparelho. Nós não temos acesso a esses arquivos. Ao desinstalar o jogo ou limpar os dados do app, eles são apagados.</p>
+
+  <h2>Compartilhamento</h2>
+  <p>Não vendemos nem compartilhamos dados pessoais, porque não os coletamos. O jogo não exibe anúncios.</p>
+
+  <h2>Google Play</h2>
+  <p>O download e a atualização do jogo são feitos pela Google Play, que trata dados conforme a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+
+  <h2>Segurança e retenção</h2>
+  <p>Como não recebemos dados pessoais, não mantemos nenhuma cópia deles. Os dados locais permanecem no aparelho até que você os apague.</p>
+
+  <h2>Crianças</h2>
+  <p>O jogo tem conteúdo violento e é destinado a maiores de 18 anos. Não coletamos dados de crianças.</p>
+
+  <h2>Seus direitos</h2>
+  <p>Você pode falar conosco sobre privacidade pelo contato abaixo, inclusive para exercer os direitos previstos na Lei Geral de Proteção de Dados (Lei nº 13.709/2018).</p>
+
+  <h2>Mudanças nesta política</h2>
+  <p>Se o jogo passar a coletar dados, por exemplo ao incluir anúncios, compras ou login, esta página será atualizada antes da mudança chegar ao jogo.</p>
+
+  <h2>Contato</h2>
+  <p><a href="mailto:losmonoshermanosstudio@gmail.com">losmonoshermanosstudio@gmail.com</a></p>
+</section>
+
+<footer>
+  <div>
+    <div class="footer-brand">Los Monos Hermanos</div>
+    <div class="footer-copy">© 2026 Los Monos Hermanos. Todos os direitos reservados.</div>
+  </div>
+  <div class="footer-links">
+    <a href="../../">Início</a>
+    <a href="mailto:losmonoshermanosstudio@gmail.com">Contato</a>
+  </div>
+</footer>
+
+<script>
+  const starsEl = document.getElementById('stars');
+  for (let i = 0; i < 80; i++) {
+    const s = document.createElement('span');
+    const size = Math.random() * 2 + 0.5;
+    s.style.cssText = `width:${size}px;height:${size}px;top:${Math.random() * 100}%;left:${Math.random() * 100}%;--d:${3 + Math.random() * 5}s;--delay:${Math.random() * 6}s;--op:${0.2 + Math.random() * 0.4};`;
+    starsEl.appendChild(s);
+  }
+</script>
+</body>
+</html>
